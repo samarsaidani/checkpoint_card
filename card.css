@@ -1,0 +1,70 @@
+body{
+    background-color: beige;
+}
+
+.entet{
+ 
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0px 400px 0px 400px;
+   
+
+   
+}
+.cart{
+    
+    display: flex;
+    justify-content: center;
+    margin: 0px 300px 40px 300px;
+  
+  
+}
+.titre{
+ 
+    display: flex;
+font-size: larger;
+   
+
+}
+.ajouter{
+   
+    
+    display: flex;
+   
+    
+  
+}
+.info{
+    
+    display: flex;
+   align-items: center;
+ flex-direction: column;
+ justify-content: space-around;
+ margin:50px ;
+}
+button{
+    border-color: transparent;
+    background-color: white;
+}
+
+
+.model{
+   
+    margin: 0px 400px 0px 400px;
+  border-radius: 10%;
+  background-color: white;
+
+
+}
+input{
+   width: 30px;
+   border-color: transparent;
+}
+.model:hover{
+    box-shadow: rgb(94, 94, 22) 0px 2px 8px 0px;
+}
+.active{
+    color: red;
+
+}
